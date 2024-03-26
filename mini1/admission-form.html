@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<style>
+@media only screen and (min-width: 1024px){
+
+    .formpage{
+        width: 50%;
+        height: 700px;
+        margin-left: 25%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        background-color: white;
+        padding-top: 5%;
+        
+
+    }
+    .formpage input{
+        width: 250px;
+        margin-left: 10%;
+        border-radius: 2vmin;
+        height:50px;
+        border: 2px solid black;
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+    }
+    .formpage select{
+        margin-left: 10%;
+        height: 50px;
+        border-radius: 2vmin;
+        border: 2px solid black;
+    }
+    .formpage button{
+        height: 50px;
+        border-radius: 2vmin;
+        width: 120px;
+        margin-left: 44%;
+        font-size: 1.5em;
+        margin-top: 5%;
+        background-color: rgb(184, 33, 33);
+    }
+    .note{
+        font-size: 0.5em;
+        margin-top: 5%;
+        margin-left: 5%;
+        cursor: pointer;
+
+    }
+
+}
+</style>
+<body>
+    <div class="formpage">
+        <h1 style="text-align: center; font-size: 2em; color: brown;">APPLICATION FORM</h1>
+        <form>
+            <input type="text" placeholder="NAME" required>
+            <input type="text" placeholder="FATHER NAME" required><br><br>
+            <input type="text" placeholder="MOTHER NAME"required>
+            <input type="date" required ><br><br>
+            <select name="GENDER" id="" required><br>
+                <option value="FEMALE" >GENDER</option><br>
+                <option value="MALE">MALE</option>
+                <option value="FEMALE">FEMALE</option><br>
+            </select><br><br>
+            <input type="tel" maxlength="10" placeholder="MOBILE NUMBER" required>
+            <input type="email" placeholder="ENTER MAIL-ID" required><br><br><br>
+            <input type="checkbox" required>
+            <input type="text" placeholder="ENTER YOUR ADDRESS">
+            <button type="submit">SUBMIT</button>
+        </form>
+        <div class="note">
+            <h1>PRINT YOUR APPLICATION FORM</h1>
+            <h1>RE-SUBMIT APPLICATION FORM</h1>
+            <h1>VERIFY FORM</h1>
+        </div>
+        
+    </div>
+</body>
+</html>
